@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Subrayada&family=Oswald&display=swap');
+
+html.sr .load-hidden {
+    visibility: hidden;
+}
+
+body{
+    background-color:#dfe0e2;
+
+    h1{
+        padding-top:50px;
+        font-family:'Montserrat Subrayada';
+        font-weight: bold;
+        font-size: 50px;
+        text-align:center;
+        
+    }
+
+    h2{
+        color: #aaaaaa;
+        font-family:Helvetica;
+        text-align:center;
+        padding-bottom:100px;
+    }
+
+    #page{
+        margin:50px 100px;
+
+        .card{
+            border-radius: 10px;
+            border-color:black;
+            margin: 0 auto;
+
+            .card-title1{
+                color:#2c99f2;
+            }
+    
+            .card-title2{
+                color:#0C64AC;
+            }
+    
+            .card-title3{
+                color:#053661;
+            }
+
+            .icon{
+                padding-top:20px;
+                margin: 0 auto;
+            }
+        }
+
+        .vl{
+            border-left: 4px dotted black;
+            height: 400px;
+            position:relative;
+            left:50%;
+        }
+    }
+}
+
+
+// html.sr .card{
+//     visibility:hidden;
+// }
