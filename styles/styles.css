@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat+Subrayada&family=Oswald&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oooh+Baby&display=swap");
 html.sr .load-hidden {
   visibility: hidden;
 }
@@ -17,8 +18,7 @@ body h1 {
 }
 
 body h2 {
-  color: #aaaaaa;
-  font-family: Helvetica;
+  font-family: 'Oooh Baby', cursive;
   text-align: center;
   padding-bottom: 100px;
 }
@@ -31,18 +31,25 @@ body #page .card {
   border-radius: 10px;
   border-color: black;
   margin: 0 auto;
+  padding: 20px;
 }
 
 body #page .card .card-title1 {
+  font-family: 'Helvetica';
   color: #2c99f2;
+  padding-bottom: 20px;
 }
 
 body #page .card .card-title2 {
+  font-family: 'Helvetica';
   color: #0C64AC;
+  padding-bottom: 20px;
 }
 
 body #page .card .card-title3 {
+  font-family: 'Helvetica';
   color: #053661;
+  padding-bottom: 20px;
 }
 
 body #page .card .icon {
@@ -50,10 +57,28 @@ body #page .card .icon {
   margin: 0 auto;
 }
 
+body #page .card p {
+  text-align: center;
+}
+
 body #page .vl {
   border-left: 4px dotted black;
   height: 400px;
   position: relative;
   left: 50%;
+}
+
+body #page .linkrow {
+  padding-top: 50px;
+  text-align: center;
+}
+
+body #page a {
+  color: #0C64AC;
+}
+
+body #page a:hover {
+  text-decoration: none;
+  border-bottom: 1px solid;
 }
 /*# sourceMappingURL=styles.css.map */
